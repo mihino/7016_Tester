@@ -1,0 +1,9 @@
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\bin\Debug\ADC_tester.exe
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\bin\Debug\ADC_tester.pdb
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\obj\x86\Debug\ADC_tester.Form1.resources
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\obj\x86\Debug\ADC_tester.Properties.Resources.resources
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\obj\x86\Debug\ADC_tester.csproj.GenerateResource.Cache
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\obj\x86\Debug\ADC_tester.exe
+C:\Users\Doma\AppData\Local\Temporary Projects\ADC_tester\obj\x86\Debug\ADC_tester.pdb
+C:\Users\Doma\documents\visual studio 2010\Projects\ADC_tester\ADC_tester\obj\x86\Debug\ADC_tester.exe
+C:\Users\Doma\documents\visual studio 2010\Projects\ADC_tester\ADC_tester\obj\x86\Debug\ADC_tester.pdb
