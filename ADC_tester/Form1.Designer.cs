@@ -54,6 +54,8 @@
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -321,11 +323,33 @@
             this.textBox2.Text = "#010";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(276, 400);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(121, 29);
+            this.button11.TabIndex = 24;
+            this.button11.Text = "%0102080680";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label10.Location = new System.Drawing.Point(406, 403);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(172, 20);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "Prekonfiguruj 01 na  02";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 458);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.numericUpDown2);
@@ -387,7 +411,8 @@
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox2;
-
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Label label10;
     }
 }
 

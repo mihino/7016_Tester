@@ -27,7 +27,7 @@ namespace ADC_tester
 
         private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
-            /*
+            /* test
             while (serialPort1.BytesToRead > 0)
             {
                 int ch = serialPort1.ReadChar();
@@ -182,7 +182,6 @@ namespace ADC_tester
 
         private void button9_Click(object sender, EventArgs e)
         {
-            
             try
             {
 
@@ -212,6 +211,20 @@ namespace ADC_tester
                 MessageBox.Show(excep.Message);
             }
         
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                serialPort1.Write("%0102080680" + "\r");
+            }
+            catch (Exception excep)
+            {
+                MessageBox.Show(excep.Message);
+            }
+
         }
     }
 }
