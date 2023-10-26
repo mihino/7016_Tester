@@ -21,7 +21,7 @@ namespace ADC_tester
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -50,12 +50,12 @@ namespace ADC_tester
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {           
+        {
             try
             {
                 serialPort1.ReadExisting();
                 serialPort1.Write("#012" + "\r");
-               
+
             }
             catch (Exception excep)
             {
@@ -114,7 +114,7 @@ namespace ADC_tester
         {
             try
             {
-                
+
                 serialPort1.Write("$01F" + "\r");
             }
             catch (Exception excep)
@@ -127,7 +127,7 @@ namespace ADC_tester
         {
             try
             {
-                
+
                 serialPort1.Write("$01M" + "\r");
             }
             catch (Exception excep)
@@ -177,8 +177,8 @@ namespace ADC_tester
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
-            button9.Text = "$017+0" + numericUpDown2.Value +".000";
-                   }
+            button9.Text = "$017+0" + numericUpDown2.Value + ".000";
+        }
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -201,7 +201,7 @@ namespace ADC_tester
 
         private void button10_Click(object sender, EventArgs e)
         {
-             try
+            try
             {
 
                 serialPort1.Write(textBox2.Text + "\r");
@@ -210,14 +210,13 @@ namespace ADC_tester
             {
                 MessageBox.Show(excep.Message);
             }
-        
+
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             try
             {
-
                 serialPort1.Write("%0102080680" + "\r");
             }
             catch (Exception excep)
@@ -225,6 +224,30 @@ namespace ADC_tester
                 MessageBox.Show(excep.Message);
             }
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                serialPort1.Write("#02" + "\r");
+            }
+            catch (Exception excep)
+            {
+                MessageBox.Show(excep.Message);
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                serialPort1.Write("$022" + "\r");
+            }
+            catch (Exception excep)
+            {
+                MessageBox.Show(excep.Message);
+            }
         }
     }
 }
