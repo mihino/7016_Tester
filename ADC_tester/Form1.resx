@@ -120,4 +120,19 @@
   <metadata name="serialPort1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="label15.Text" xml:space="preserve">
+    <value>        /*
+         * Commands for Arudino:
+         *  - $AR#  - Get Name - Response: ARD-OK
+         *  - $SAXXX#   - Set Address XXX -  Response: ARD-OK
+         *  - $STXX#      - Set TRUE Digital Pin    (na nastavenie pinu True/False)  - ARD-OK
+         *  - $SFXX#      - Set FALSE Digital Pin    (na nastavenie pinu True/False) - ARD-OK
+         *  - $GDXX#      - Get Digital Pin    (na precitaniu pinu True/False) - ARD-OK0#  vs ARD-OK1#
+         *  - $GAXX#      - Get Analog Pin    (na precitaniu Analog) - ARD-OKXXXX#  ARD-OK1001# cislo 0-1023  (10bit 5V)
+         *  -       - Get Temp
+         *  - $IDL#      - INIT - Idle Mod
+         *  
+         */
+</value>
+  </data>
 </root>
